@@ -1,2 +1,5 @@
 .ipynb_checkpoints
 .vscode
+
+# Ignore large files
+data/digital-agenda-scoreboard-key-indicators.csv
