@@ -68,7 +68,7 @@ The goal of this project is to analyze in detail what is the actual scenario in 
 The following is a draft of what will be the structure of the notebook.
 
 - **Italy**: firstly, the analysis will be done at national level, taking and processing data to show the differences between the regions.
-    - 1st block --> (name)
-    - 2nd block --> (name)
-    - 3rd block --> (name)
+    - 1st block --> Alessandro
+    - 2nd block --> Paolo
+    - 3rd block --> Mattia
 - **Europe**: then, the analysis will be expanded to the whole Europe, in order to make a comparison between all the countries.
