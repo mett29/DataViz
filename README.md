@@ -6,9 +6,10 @@ The goal of this project is to analyze in detail what is the actual scenario in 
 
 ## Libraries
 - pandas
-- matplotlib
-- numpy
-- ...
+ - geopandas
+ - matplotlib
+ - seaborn
+ - plotly
 
 ## Data
 

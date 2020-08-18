@@ -2,7 +2,8 @@
 
 ## Overview
 
-### Mission
+In a world that is every day more connected, it is crucial to support this change with suitable infrastructure. Moreover, the last months have forced all the countries to face a tough challenge in terms of technological development (and not only), due to COVID19. Sustaining the digital economy is critical to deal with such extreme scenarios, but also to guarantee a better state of life and to give more opportunities to the people, and thus introducing new lymph in the economy of the country. The digital divide is a phenomenon that affects many nations, with different levels of intensity.
+
 With this project, we aim to carry on a detailed analysis of the current situation in Italy and Europe for what regards the digital society and digital economy aspects. More precisely, the focus will be on Italy itself, performing the first analysis at a regional level, trying to find and show what are the differences among the different regions, and trying to emphasize the unbalances. Then, our magnifying glass will do a step back, to show the differences at a European level. 
 
 ### Our datasets
@@ -15,7 +16,6 @@ Following is a list of the main libraries and tools we used to carry on the anal
    - matplotlib
    - seaborn
    - plotly
-   - ipywidgets
 
 ## Analysis
 
@@ -44,7 +44,7 @@ The graph shows two interesting aspects:
 - nevertheless, except for the "IT security area", the percentages show an overall low acquisition of the other services.
   
 <br><div style="text-align:center">
-   <img src="../assets/img/3rd_block/fig_1.svg" width=850px height=650px>
+   <img src="../assets/img/3rd_block/fig_1.png">
 </div><br>
 
 ***3.2 Enterprises indicating the first five technological areas with greater impact on development in the two-year period (2017)***
@@ -55,7 +55,7 @@ This graph is a continuation of the previous one and it can be considered as com
 - critically, the percentages corresponding to the "do not know how to respond" are fairly high.
 
 <br><div style="text-align:center">
-   <img src="../assets/img/3rd_block/fig_2.svg" width=900px height=500px>
+   <img src="../assets/img/3rd_block/fig_2.png">
 </div><br>
 
 ***3.3 The main digitization factors considered important by enterprises (2018)***
@@ -66,7 +66,7 @@ This graph follows the same line of the previous one, but with a focus on the so
 - also in this case, the percentages corresponding to the "do not know how to respond" value are fairly high.
 
 <br><div style="text-align:center">
-   <img src="../assets/img/3rd_block/fig_3.svg" width=850px height=550px>
+   <img src="../assets/img/3rd_block/fig_3.png">
 </div><br>
 
 #### 4. Enterprises and innovation
