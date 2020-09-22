@@ -72,8 +72,21 @@ dimensions = ['1 DESI Connectivity Dimension',
            '3 DESI Use of Internet Dimension',
            '4 DESI Integration of Digital Technology Dimension',
            '5 DESI Digital Public Services Dimension']
-years = list(map(int, desi_r.time_period.unique()))
 colors = ['Oranges', 'Reds', 'Greens', 'Blues', 'RdPu']
+dimensions_descr = ['calculated as the weighted average of the five sub-dimensions: 1a Fixed Broadband take-up (25%), 1b Fixed broadband coverage (25%), 1c Mobile broadband (35%) and 1d Broadband price index (15%)',
+                        'calculated as the weighted average of the two sub-dimensions: 2a Internet User Skills (50%) and 2b Advanced Skills and Development (50%)]',
+                        'calculated as the weighted average of the three sub-dimensions: 3a Internet Use (25%), 3b Activities Online (50%), 3c Transactions (25%)',
+                        'calculated as the weighted average of the two sub-dimensions: 4a Business digitisation (60%) and 4b e-Commerce (40%)',
+                        'calculated by taking the score for 5a e-Government']
+
+years = list(map(int, desi_r.time_period.unique()))
+
+
+dimensions_min_val = []
+dimensions_max_val = []
+for dim in dimensions:
+    dimensions_min_val.append(desi_r.loc[(desi_r['breakdown'] == dim)].value.min())
+    dimensions_max_val.append(desi_r.loc[(desi_r['breakdown'] == dim)].value.max())
 
 # Dash
 
@@ -88,7 +101,7 @@ app.layout = html.Div([
 
         html.Div([
             dcc.Markdown('## **DESI** Choropleth map')
-            ]),   
+        ]),   
     ],
     style={'width': '30%', 'margin': '12px 40px', 'display': 'inline-block'}),
 
@@ -102,11 +115,26 @@ app.layout = html.Div([
             dcc.Dropdown(
                 id='dimension-selector',
                 options=[{'label': i, 'value': i} for i in dimensions],
-                value='1 DESI Connectivity Dimension'
+                value='1 DESI Connectivity Dimension',
+                clearable=False
                 )
         ])
     ],
     style={'margin': '35px 50px 0px', 'float': 'right', 'display': 'inline-block'}),
+
+    html.Div([
+
+        html.Div([
+            html.H5('Indicator',
+                id='indicator')
+        ]),
+
+        html.Div([
+            dcc.Markdown('Description',
+                id='indicator-descr')
+        ]),
+    ],
+    style={'margin': 'auto', 'width': '60%', 'height': '120px', 'text-align': 'center', 'display': 'block'}),
 
 
     dcc.Graph(id='choropleth',
@@ -142,44 +170,54 @@ style={'width': '1200px'})
 
 
 @app.callback(
-    Output('choropleth', 'figure'),
+    [Output('choropleth', 'figure'),
+    Output('indicator', 'children'),
+    Output('indicator-descr', 'children')],
     [Input('dimension-selector', 'value'),
      Input('year-slider', 'value')])
 def update_graph(dimension,
                  year_value):
     
+    dimension_index=dimensions.index(dimension)
+    
+    # Trim the DESI dimension number
+    indicator = dimension[2:]
+
+    indicator_descr = dimensions_descr[dimension_index]
+
     year = str(year_value)
     data = desi_r.loc[(desi_r['breakdown'] == dimension) & (desi_r['time_period'] == year)]
 
-    color_index=dimensions.index(dimension)
 
     fig = px.choropleth(data,
         locations='ref_area',
         locationmode='country names',
         featureidkey='properties.wb_a2',
         labels={'time_period':'Year', 'ref_area':'Country', 'breakdown':'Indicator',
-       'value':'Value', 'ref_area_id':'Country ID'},
+       'value':'Score', 'ref_area_id':'Country ID'},
         color='value',
-        color_continuous_scale=colors[color_index],
+        color_continuous_scale=colors[dimension_index],
         hover_name='ref_area',
         hover_data=['breakdown', 'time_period'])
 
 
     fig.update_geos(
-        #visible=False,
         resolution=50,
         showlakes=False,
         scope='europe'
     )
     
     fig.update_layout(width=1200, height=900,
-    coloraxis=dict(colorbar_len=0.9, 
-                colorbar_thickness=25,
-                colorbar_outlinewidth=1)
-    #margin={'l': 40, 'b': 40, 't': 10, 'r': 0}
+        coloraxis=dict(colorbar_len=0.9, 
+                    colorbar_thickness=25,
+                    colorbar_outlinewidth=1,
+                    cmin=dimensions_min_val[dimension_index],
+                    cmax=dimensions_max_val[dimension_index]),
+        dragmode=False,
+        margin={'l': 0, 'b': 0, 't': 0, 'r': 0, 'pad': 0}
     )
 
-    return fig
+    return fig, indicator, indicator_descr
 
 
 if __name__ == '__main__':
