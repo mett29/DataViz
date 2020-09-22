@@ -20,6 +20,7 @@ Following is a list of the main libraries and tools we used to carry on the anal
 ## Analysis
 
 ### Italy
+
 These sections contain an analysis of the technological innovation in the Italian enterprises. The goal is to understand and show if and where the most recent technologies are changing the way of working of the Italian production sector and how much these technologies are take into consideration.
 
 #### 1. FIRST BLOCK
@@ -28,13 +29,50 @@ These sections contain an analysis of the technological innovation in the Italia
 
 ---
 
-#### 2. SECOND BLOCK
+#### E-invoicing
 
-#### TODO...
+The survey covers the universe of enterprises with 10 or more persons  employed active, according to the classification of economic activities  adopted in Italy (Ateco 2002), in the areas of manufacturing (D),  construction (F), wholesale and detail (G), hotels (H), transport,  storage and communication (I), real estate activities, renting, research and development (K) and audiovisual (O).
+
+The object of the survey are the equipments of ICT enterprises and the  measurement of e-commerce. The technique chosen is the investigation of a postal self-completion questionnaire.
+
+The sampling design used for the survey is stratified random type.  Businesses universe were divided into homogeneous layers for level of  economic activity, geographical area and number of employees. 
+
+The graph represent the percentage of the enterprises that use different types of invoicing.  In particular, the specific indicators represent:
+
+- Enterprises sending invoices to other enterprises or government with paper sending (**Paper sending**)
+- Enterprises sending invoices to other enterprises or government with sending of electronic Invoice suitable for automated processing (**eInvoice suitable**)
+- Enterprises sending invoices to other enterprises or government using electronic invoice not suitable for automated processing (**Electronic not suitable**)
+
+##### Analysis of the results
+
+- It emerges that the results are very similar throughout Italy, no relevant difference arise. 
+
+- Paper invoices are still the preferred medium for most companies.
+
+<img src="../assets/img/2nd_block/invoicing_bar.png">
+
+#### Big data analysis
+
+<img src="../assets/img/2nd_block/bigdata_bar.png">
+
+<img src="../assets/img/2nd_block/bigdata_map.png">
+
+#### Cloud Computing
+
+<img src="../assets/img/2nd_block/cloud_bar.png">
+
+<img src="../assets/img/2nd_block/cloud_stacked.png">
+
+#### Skills and training in ICT
+
+<img src="../assets/img/2nd_block/skill_bar.png">
+
+<img src="../assets/img/2nd_block/skill_map.png">
 
 ---
 
 #### 3. Enterprises and digitization
+
 The survey covers the universe of enterprises with 10 or more persons employed active, according to the classification of economic activities adopted in Italy (Ateco 2002), in the areas of manufacturing, construction, wholesale and detail, hotels, transport, storage and communication, real estate activities, renting, research and development and audiovisual.
 
 ***3.1 Enterprises which had acquired goods/services in technological areas in the previous three years (2017)***
@@ -43,6 +81,7 @@ The graph shows two interesting aspects:
 - there is not a clear difference between the macro-areas of the Italian territory;
 - nevertheless, except for the "IT security area", the percentages show an overall low acquisition of the other services.
   
+
 <br><div style="text-align:center">
    <img src="../assets/img/3rd_block/fig_1.png">
 </div><br>
