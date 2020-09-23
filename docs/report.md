@@ -29,7 +29,7 @@ These sections contain an analysis of the technological innovation in the Italia
 
 ---
 
-#### E-invoicing
+#### E-invoicing (2018)
 
 The survey covers the universe of enterprises with 10 or more persons  employed active, according to the classification of economic activities  adopted in Italy (Ateco 2002), in the areas of manufacturing (D),  construction (F), wholesale and detail (G), hotels (H), transport,  storage and communication (I), real estate activities, renting, research and development (K) and audiovisual (O).
 
@@ -47,25 +47,73 @@ The graph represent the percentage of the enterprises that use different types o
 
 - It emerges that the results are very similar throughout Italy, no relevant difference arise. 
 
-- Paper invoices are still the preferred medium for most companies.
+- Paper invoices are still the preferred/most supported medium for most companies.
 
 <img src="../assets/img/2nd_block/invoicing_bar.png">
 
-#### Big data analysis
+#### Big data analysis (2018)
+
+In this section we analyze the big data analysis aspects of the Italian enterprises. Big data analytics examines large amounts of data to uncover hidden patterns, correlations and other insights. 
+
+**Source type of analyzed data**
+
+The y-axis represent the percentages of the data type analyzed, from the total collected data. The percentages are overall low, and anomalous value can be seen in:
+
+- Analysis of data from the social media source, higher in center than in every other territories;
+-  The analysis of the data  from smart devices sensors show the usual descending trend from north to south
 
 <img src="../assets/img/2nd_block/bigdata_bar.png">
 
+**Division by percentages of enterprises analysis type**
+
+Data analysis in general has a low percentage, which does not exceed 8% of companies in both the north and south. It is a result that can be expected as most companies are not interested in this type of analysis, but only those strongly connected to the world of ICT benefit from it.
+
+Therefore, among these companies, which ones carry out analyzes through external providers and which ones directly in the company?
+
+- The preferred way is mostly the analysis through internal work of the company
+- A lower part, on the other hand, prefers an analysis via external providers, which provide all the searches already done
+- Little difference between north and south, the percentages in scale remain very low in any case
+
 <img src="../assets/img/2nd_block/bigdata_map.png">
 
-#### Cloud Computing
+#### Cloud Computing (2018)
+
+Another indicator of technological development can be found in the data and statistics of the use of services in the 'cloud', with operations not carried out directly on the company's physical machine.
+
+**Level of cloud services**
+
+The level of service here indicates the level of the machines/service bought by the enterprise. The higher is the level, the more efficient and more curated is the service (and likely, higher is the price). 
+
+We can see how the descending trend (thought with small gaps) is maintained also in this indicator. The relative proportion between the 3 levels in a single area are more or less the same for every area, while the general tendency to invest in any kind of cloud service is higher in north than in south.
 
 <img src="../assets/img/2nd_block/cloud_bar.png">
 
+**Type of cloud services**
+
+The representation below shows, speaking of type of service, what companies are interested in. The email and storage services (as expected) are the most in demand, while pure computational power is given little consideration in both the north and south.
+
+Among all, the service that remains most stable in the differences between the territories is the cloud hosting of databases, fundamental for any company dealing with ICT.
+
+The trend remains downward between the northern and southern territories.
+
 <img src="../assets/img/2nd_block/cloud_stacked.png">
 
-#### Skills and training in ICT
+#### Skills and training in ICT (2019)
 
+In this section we want to highlight  the difference between territories of skills and the type of employees with technological skills among the various companies.
+
+**Investment in ICT skilled employers by the enterprise**
+
+The "recruited personnel for ICT" represent the percentages of enterprises that have recruited/tried to recruit personnel for jobs requiring ICT specialist skills in previous year.
+
+Although the number of companies employing ICT specialists is already higher in the north, it remains even higher than in the other territories also for the personnel hired in the last year and the willingness to invest in strengthening the skills of employees. This result highlights how the north invests more resources in recruiting people with IT skills despite already having a higher number of employees with these skills.
 <img src="../assets/img/2nd_block/skill_bar.png">
+
+**ICT functions performed by internal/external suppliers**
+
+In these complementary graphs we compare the difference between IT work done inside the company compared to that done outside.
+
+You immediately notice the big difference in favor of external work: companies prefer to turn to other consulting companies for this type of operation. This result shows the many IT specialist companies to be fundamental both north and south for carrying out these jobs, which normal companies cannot afford to do internally.
 
 <img src="../assets/img/2nd_block/skill_map.png">
 
