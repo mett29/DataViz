@@ -2,34 +2,90 @@
 
 ## Overview
 
-In a world that is every day more connected, it is crucial to support this change with suitable infrastructure. Moreover, the last months have forced all the countries to face a tough challenge in terms of technological development (and not only), due to COVID19. Sustaining the digital economy is critical to deal with such extreme scenarios, but also to guarantee a better state of life and to give more opportunities to the people, and thus introducing new lymph in the economy of the country. The digital divide is a phenomenon that affects many nations, with different levels of intensity.
+In a world that is every day more connected, it is crucial to support this change with suitable infrastructure. Moreover, the last months have forced all the countries to face a tough challenge in terms of technological development (and not only that), due to COVID19. Sustaining the digital economy is critical to deal with such extreme scenarios, but also to guarantee a better state of life and to give more opportunities to the people, and thus introducing new lymph in the economy of the country. The digital divide is a phenomenon that affects many nations, with different levels of intensity.
 
-With this project, we aim to carry on a detailed analysis of the current situation in Italy and Europe for what regards the digital society and digital economy aspects. More precisely, the focus will be on Italy itself, performing the first analysis at a regional level, trying to find and show what are the differences among the different regions, and trying to emphasize the unbalances. Then, our magnifying glass will do a step back, to show the differences at a European level. 
+With this project, we aim to carry on a detailed analysis of the current situation in Italy and Europe for what regards the digital society and digital economy aspects. More precisely, the focus will be on Italy itself, performing the first analysis at a regional level, trying to find and show what are the differences among the different regions, and trying to emphasize the imbalances. Then, our magnifying glass will do a step back, to show the differences at a European level. 
 
 ### Our datasets
 The data we used to perform our analysis came from the ISTAT and Eurostat websites. In particular, we used **I.Stat data warehouse** for Italy, while we used the **Digital Agenda for Europe** for the analysis at a European level.
 
 ### Our libraries
-Following is a list of the main libraries and tools we used to carry on the analysis:
+Outlined below is a list of the main libraries and tools we used to carry out the analysis:
    - pandas
    - geopandas
    - matplotlib
    - seaborn
    - plotly
+   - dash
 
 ## Analysis
 
 ### Italy
 
-These sections contain an analysis of the technological innovation in the Italian enterprises. The goal is to understand and show if and where the most recent technologies are changing the way of working of the Italian production sector and how much these technologies are take into consideration.
+#### 1. Household internet access and sentiment
+This section focuses on the disparities in Italian people's approach towards technology, internet and e-commerce, capturing the findings of the most recent survey (2019), as well as the evolution of some parameters across the years.
+The survey provides information on the citizens' habits and the problems they face in every day life. The thematic areas are on different social aspects, allowing to assess the quality of individual life: here we specifically focus on the citizens' internet usage.
 
-#### 1. FIRST BLOCK
+***1.1 Households with internet access at home by region (2019)***
 
-#### TODO...
+The graph shows the different distribution in household internet access thoroghout the regions: it highlights how the southern regions of the country are (mostly) below average, while the center-northern regions are above average, albeit the difference is not extremely pronounced. The bar chart and the choropleth map provide a look at this data from different perspectives.
+
+<br><div style="text-align:center">
+   <img src="../assets/img/1st_block/fig_1_1.svg" width=59%>
+   <img src="../assets/img/1st_block/fig_1_2.svg" width=40%>
+</div><br>
+
+***1.2 Households with internet access at home by age group (2019)***
+
+Together with the geographic imbalance, the age gap is especially pronounced in Italy: it is a country with an older population than most, and this is reflected in many of the indicators analyzed in this report.
+
+The following chart shows the percentage of households with and without an internet connection, by age group: the most noticeable discrepancy lies in the households with over-65 members, since most (64.7%) of those don't even have an internet connection.
+
+<br><div style="text-align:center">
+   <img src="../assets/img/1st_block/fig_1_3.svg">
+</div><br>
+
+***1.3 Households without internet access at home by age group and reason (2019)***
+
+The next chart analyzes the previous data in more detail, looking at the same age groups and breaking down the reasons for not having internet at home. In general, the predominant reasons are "lack of skills", and finding the internet "not useful, not interesting", which highlights a widespread disinterest and a  noticeable cultural hindrance to the modernization of the country. These findings are especially evident in the over-65 age group.
+
+<br><div style="text-align:center">
+   <img src="../assets/img/1st_block/fig_1_4.svg">
+</div><br>
+
+#### 2. Household internet usage and services
+
+***2.1 Internet usage by age over time (2001-2019)***
+
+TODO
+
+<br><div style="text-align:center">
+   <img src="../assets/img/1st_block/fig_2_1.svg">
+</div><br>
+
+***2.2 Interaction with the public authorities***
+
+TODO
+
+***2.3 Frequency in online purchases by region (2019)***
+
+TODO
+
+<br><div style="text-align:center">
+   <img src="../assets/img/1st_block/fig_2_2.svg">
+</div><br>
+
+#### 3. E-commerce
+
+***3.1 TODO***
+
+TODO
+
 
 ---
 
-#### E-invoicing (2018)
+#### E-invoicing
+These sections contain an analysis of the technological innovation in the Italian enterprises. The goal is to understand and show if and where the most recent technologies are changing the way of working of the Italian production sector and how much these technologies are take into consideration.
 
 The survey covers the universe of enterprises with 10 or more persons  employed active, according to the classification of economic activities  adopted in Italy (Ateco 2002), in the areas of manufacturing (D),  construction (F), wholesale and detail (G), hotels (H), transport,  storage and communication (I), real estate activities, renting, research and development (K) and audiovisual (O).
 
@@ -203,3 +259,43 @@ Visibly, the download speeds in the three different classes are not so different
 <br><div style="text-align:center">
    <img src="../assets/img/3rd_block/fig_8.svg" width=900px height=500px>
 </div><br>
+
+
+
+### Europe
+
+#### TODO
+
+#### Digital Economy and Society Index (DESI)
+
+The Digital Economy and Society Index (DESI) is a composite index that summarises relevant indicators on Europe’s digital performance and tracks the evolution of EU Member States in digital competitiveness.
+
+The majority of DESI indicators come from Eurostat, the statistical office of the European Union. Some broadband indicators are collected by the Commission services from the Member States through the Communications Committee. Other indicators, such as some e-government and broadband indicators, are based on data derived from studies prepared for the Commission.
+
+
+The DESI is composed of five principal policy areas:
+
+1. Connectivity  
+   Fixed broadband take-up, fixed broadband coverage, mobile broadband and broadband prices
+2. Human capital  
+   Internet user skills and advanced skills
+3. Use of internet  
+   Citizens' use of internet services and online transactions
+4. Integration of digital technology  
+   Business digitisation and e-commerce
+5. Digital public services  
+   e-Government
+
+The data is proposed here in two interactive visualizations.
+
+##### Choropleth map
+The interactive map allows to choose one of the 5 Dimensions which make up the DESI and to select on a slider the year to visualize the score for said indicator.
+
+The scores go from 0 to 100 and are obtained by weighting a specific set of indicators. The can be visualized by hovering over each country.
+
+TODO
+
+[//]: # (<iframe src="https://europe-dash.herokuapp.com/" width=1200 height=1200>)
+
+##### Bar chart
+TODO
