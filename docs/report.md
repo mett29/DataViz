@@ -106,7 +106,7 @@ The graph represent the percentage of the enterprises that use different types o
 
 - Paper invoices are still the preferred/most supported medium for most companies.
 
-<img src="../assets/img/2nd_block/invoicing_bar.png">
+<img src="../assets/img/2nd_block/fig_1.png">
 
 #### Big data analysis (2018)
 
@@ -119,7 +119,7 @@ The y-axis represent the percentages of the data type analyzed, from the total c
 - Analysis of data from the social media source, higher in center than in every other territories;
 -  The analysis of the data  from smart devices sensors show the usual descending trend from north to south
 
-<img src="../assets/img/2nd_block/bigdata_bar.png">
+<img src="../assets/img/2nd_block/fig_4.png">
 
 **Division by percentages of enterprises analysis type**
 
@@ -131,7 +131,7 @@ Therefore, among these companies, which ones carry out analyzes through external
 - A lower part, on the other hand, prefers an analysis via external providers, which provide all the searches already done
 - Little difference between north and south, the percentages in scale remain very low in any case
 
-<img src="../assets/img/2nd_block/bigdata_map.png">
+<img src="../assets/img/2nd_block/fig_5.svg">
 
 #### Cloud Computing (2018)
 
@@ -143,7 +143,7 @@ The level of service here indicates the level of the machines/service bought by 
 
 We can see how the descending trend (thought with small gaps) is maintained also in this indicator. The relative proportion between the 3 levels in a single area are more or less the same for every area, while the general tendency to invest in any kind of cloud service is higher in north than in south.
 
-<img src="../assets/img/2nd_block/cloud_bar.png">
+<img src="report/fig_3.png">
 
 **Type of cloud services**
 
@@ -153,26 +153,25 @@ Among all, the service that remains most stable in the differences between the t
 
 The trend remains downward between the northern and southern territories.
 
-<img src="../assets/img/2nd_block/cloud_stacked.png">
+<img src="../assets/img/2nd_block/fig_2.png">
 
 #### Skills and training in ICT (2019)
 
 In this section we want to highlight  the difference between territories of skills and the type of employees with technological skills among the various companies.
 
-**Investment in ICT skilled employers by the enterprise**
+**Investment in ICT skilled employers by the enterprise** and **ICT functions performed by internal/external suppliers**
+
+Both the maps are complementary graphs, and we try to show the difference between IT work done inside the company compared to that done outside.
+
+You immediately notice the big difference in favor of external work: companies prefer to turn to other consulting companies for this type of operation. This result shows the many IT specialist companies to be fundamental both north and south for carrying out these jobs, which normal companies cannot afford to do internally.
 
 The "recruited personnel for ICT" represent the percentages of enterprises that have recruited/tried to recruit personnel for jobs requiring ICT specialist skills in previous year.
 
 Although the number of companies employing ICT specialists is already higher in the north, it remains even higher than in the other territories also for the personnel hired in the last year and the willingness to invest in strengthening the skills of employees. This result highlights how the north invests more resources in recruiting people with IT skills despite already having a higher number of employees with these skills.
-<img src="../assets/img/2nd_block/skill_bar.png">
 
-**ICT functions performed by internal/external suppliers**
+<img src="../assets/img/2nd_block/fig_6.svg">
 
-In these complementary graphs we compare the difference between IT work done inside the company compared to that done outside.
-
-You immediately notice the big difference in favor of external work: companies prefer to turn to other consulting companies for this type of operation. This result shows the many IT specialist companies to be fundamental both north and south for carrying out these jobs, which normal companies cannot afford to do internally.
-
-<img src="../assets/img/2nd_block/skill_map.png">
+<img src="../assets/img/2nd_block/fig_7.png">
 
 ---
 
