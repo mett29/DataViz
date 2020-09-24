@@ -85,6 +85,7 @@ TODO
 ---
 
 #### E-invoicing
+
 These sections contain an analysis of the technological innovation in the Italian enterprises. The goal is to understand and show if and where the most recent technologies are changing the way of working of the Italian production sector and how much these technologies are take into consideration.
 
 The survey covers the universe of enterprises with 10 or more persons  employed active, according to the classification of economic activities  adopted in Italy (Ateco 2002), in the areas of manufacturing (D),  construction (F), wholesale and detail (G), hotels (H), transport,  storage and communication (I), real estate activities, renting, research and development (K) and audiovisual (O).
@@ -295,7 +296,7 @@ The scores go from 0 to 100 and are obtained by weighting a specific set of indi
 
 TODO
 
-[//]: # (<iframe src="https://europe-dash.herokuapp.com/" width=1200 height=1200>)
+[//]: # "<iframe src="https://europe-dash.herokuapp.com/" width=1200 height=1200>"
 
 ##### Bar chart
 TODO
