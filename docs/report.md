@@ -22,7 +22,7 @@ Outlined below is a list of the main libraries and tools we used to carry out th
 
 ### Italy
 
-##### 1. Household internet access and sentiment
+#### 1. Household internet access and sentiment
 
 This section focuses on the disparities in Italian people's approach towards technology, internet and e-commerce, capturing the findings of the most recent survey (2019), as well as the evolution of some parameters across the years.
 
@@ -90,102 +90,75 @@ Shopping has become in recent years one of the main online activities: the follo
 </div><br>
 
 
-#### E-invoicing
+#### 3. Digital services and innovative technologies
 
-These sections contain an analysis of the technological innovation in the Italian enterprises. The goal is to understand and show if and where the most recent technologies are changing the way of working of the Italian production sector and how much these technologies are take into consideration.
+The survey covers the universe of enterprises with 10 or more persons employed active, according to the classification of economic activities adopted in Italy (Ateco 2002), in the areas of manufacturing (D), construction (F), wholesale and detail (G), hotels (H), transport, storage and communication (I), real estate activities, renting, research and development (K) and audiovisual (O).
 
-The survey covers the universe of enterprises with 10 or more persons  employed active, according to the classification of economic activities  adopted in Italy (Ateco 2002), in the areas of manufacturing (D),  construction (F), wholesale and detail (G), hotels (H), transport,  storage and communication (I), real estate activities, renting, research and development (K) and audiovisual (O).
+The object of the survey are the equipments of the ICT enterprises. The sampling design used for the survey is stratified random type. Businesses universe were divided into homogeneous layers for level of economic activity, geographical area and number of employees.
 
-The object of the survey are the equipments of ICT enterprises and the measurement of e-commerce. The technique chosen is the investigation of a postal self-completion questionnaire.
+***3.1 Enterprises that use paper/e-invoicing (2018)***
 
-The sampling design used for the survey is stratified random type.  Businesses universe were divided into homogeneous layers for level of  economic activity, geographical area and number of employees. 
+The graph represents the percentage of the enterprises that use different types of invoicing. In particular, the different indicators represent:
 
-The graph represent the percentage of the enterprises that use different types of invoicing.  In particular, the specific indicators represent:
-
-- Enterprises sending invoices to other enterprises or government with paper sending (**Paper sending**)
-- Enterprises sending invoices to other enterprises or government with sending of electronic Invoice suitable for automated processing (**eInvoice suitable**)
-- Enterprises sending invoices to other enterprises or government using electronic invoice not suitable for automated processing (**Electronic not suitable**)
-
-##### Analysis of the results
-
-- It emerges that the results are very similar throughout Italy, no relevant difference arise. 
-
-- Paper invoices are still the preferred/most supported medium for most companies.
+- Enterprises sending invoices to other enterprises or government with paper sending (Paper sending)
+- Enterprises sending invoices to other enterprises or government with sending of electronic Invoice suitable for automated processing (eInvoice automation suitable)
+- Enterprises sending invoices to other enterprises or government using electronic invoice not suitable for automated processing (eInvoice automation not suitable)
 
 <img src="../assets/img/2nd_block/fig_1.png">
 
-#### Big data analysis (2018)
+***3.2 Enterprises and Big Data***
 
-In this section we analyze the big data analysis aspects of the Italian enterprises. Big data analytics examines large amounts of data to uncover hidden patterns, correlations and other insights. 
+Big Data are certainly one of the main topic of the moment. The possibility to store, organize and process large amount of data is crucial for the technological and economic development of a country.
 
-**Source type of analyzed data**
+**3.2.1 Type of data analyzed by enterprises (2018)**
 
-The y-axis represent the percentages of the data type analyzed, from the total collected data. The percentages are overall low, and anomalous value can be seen in:
+In the following graph, on the y-axis we find the percentages of the data type analyzed, on the total collected data. The percentages are overall low, and anomalous values can be seen in:
 
-- Analysis of data from the social media source, higher in center than in every other territories;
--  The analysis of the data  from smart devices sensors show the usual descending trend from north to south
+- The analysis of data from the social media source is higher in Center than in every other territory;
+- The analysis of the data from smart devices or sensors shows a descending trend from North to South.
 
 <img src="../assets/img/2nd_block/fig_4.png">
 
-**Division by percentages of enterprises analysis type**
+**3.2.2 Different types of Big Data analysis (2018)**
 
-Data analysis in general has a low percentage, which does not exceed 8% of companies in both the north and south. It is a result that can be expected as most companies are not interested in this type of analysis, but only those strongly connected to the world of ICT benefit from it.
+Here we have on the left the total percentage of enterprises using Big Data analysis, while on the on the choropleth maps on the right, we can see a more detailed version.
 
-Therefore, among these companies, which ones carry out analyzes through external providers and which ones directly in the company?
+Notably, the percentages are overall very low, and they do not exceed the 8% of companies in both North, Center and South.
 
-- The preferred way is mostly the analysis through internal work of the company
-- A lower part, on the other hand, prefers an analysis via external providers, which provide all the searches already done
-- Little difference between north and south, the percentages in scale remain very low in any case
+It's worth to notice, however, the percentages of the enterprises that perform analysis through external providers with respect to the ones performing analysis directly inside the company:
+
+- Internal analysis is clearly preferred;
+- The percentages are consistent with the ones of the right most graph.
 
 <img src="../assets/img/2nd_block/fig_5.svg">
 
-#### Cloud Computing (2018)
+***3.3 Enterprises and Cloud Computing***
 
-Another indicator of technological development can be found in the data and statistics of the use of services in the 'cloud', with operations not carried out directly on the company's physical machine.
+Cloud computing is another sector which has gone through an incredible rise in popularity and adoption in the last years.
 
-**Level of cloud services**
+**3.3.1 Level of cloud services**
 
-The level of service here indicates the level of the machines/service bought by the enterprise. The higher is the level, the more efficient and more curated is the service (and likely, higher is the price). 
+The level of service here indicates the level of the machines/services bought by the enterprise. The higher is the level, the more efficient and more curated is the service.
 
-We can see how the descending trend (thought with small gaps) is maintained also in this indicator. The relative proportion between the 3 levels in a single area are more or less the same for every area, while the general tendency to invest in any kind of cloud service is higher in north than in south.
+We can see how the descending trend (from North to South) is present also in this indicator. The proportion between the 3 levels in a single area is essentially constant, showing a preference for medium and high level services.
 
-<img src="report/fig_3.png">
+<img src="../assets/img/2nd_block/fig_3.png">
 
-**Type of cloud services**
+**3.3.2 Type of cloud services**
 
-The representation below shows, speaking of type of service, what companies are interested in. The email and storage services (as expected) are the most in demand, while pure computational power is given little consideration in both the north and south.
+The graph below allows to have a more detailed view of how the enterprises decide to invest their money in Cloud Computing.
 
-Among all, the service that remains most stable in the differences between the territories is the cloud hosting of databases, fundamental for any company dealing with ICT.
-
-The trend remains downward between the northern and southern territories.
+The proportions among the services remain essentially stable in the different areas and, not surprisingly, the email and storage services are the most requested, while to the computational power is given little consideration in both North and South.
 
 <img src="../assets/img/2nd_block/fig_2.png">
 
-#### Skills and training in ICT (2019)
-
-In this section we want to highlight  the difference between territories of skills and the type of employees with technological skills among the various companies.
-
-**Investment in ICT skilled employers by the enterprise** and **ICT functions performed by internal/external suppliers**
-
-Both the maps are complementary graphs, and we try to show the difference between IT work done inside the company compared to that done outside.
-
-You immediately notice the big difference in favor of external work: companies prefer to turn to other consulting companies for this type of operation. This result shows the many IT specialist companies to be fundamental both north and south for carrying out these jobs, which normal companies cannot afford to do internally.
-
-The "recruited personnel for ICT" represent the percentages of enterprises that have recruited/tried to recruit personnel for jobs requiring ICT specialist skills in previous year.
-
-Although the number of companies employing ICT specialists is already higher in the north, it remains even higher than in the other territories also for the personnel hired in the last year and the willingness to invest in strengthening the skills of employees. This result highlights how the north invests more resources in recruiting people with IT skills despite already having a higher number of employees with these skills.
-
-<img src="../assets/img/2nd_block/fig_6.svg">
-
-<img src="../assets/img/2nd_block/fig_7.png">
-
 ---
 
-#### 3. Enterprises and digitization
+#### 4. Enterprises and digitization
 
 The survey covers the universe of enterprises with 10 or more persons employed active, according to the classification of economic activities adopted in Italy (Ateco 2002), in the areas of manufacturing, construction, wholesale and detail, hotels, transport, storage and communication, real estate activities, renting, research and development and audiovisual.
 
-***3.1 Enterprises which had acquired goods/services in technological areas in the previous three years (2017)***
+***4.1 Enterprises which had acquired goods/services in technological areas in the previous three years (2017)***
 
 The graph shows two interesting aspects:
 - there is not a clear difference between the macro-areas of the Italian territory;
@@ -196,7 +169,7 @@ The graph shows two interesting aspects:
    <img src="../assets/img/3rd_block/fig_1.png">
 </div><br>
 
-***3.2 Enterprises indicating the first five technological areas with greater impact on development in the two-year period (2017)***
+***4.2 Enterprises indicating the first five technological areas with greater impact on development in the two-year period (2017)***
 
 This graph is a continuation of the previous one and it can be considered as complementary. Also in this case, the differences between macro-areas are not so marked, but equally there are some interesting aspects:
 - the percentages of each area are rationally consistent with the ones in the previous graph;
@@ -207,7 +180,7 @@ This graph is a continuation of the previous one and it can be considered as com
    <img src="../assets/img/3rd_block/fig_2.png">
 </div><br>
 
-***3.3 The main digitization factors considered important by enterprises (2018)***
+***4.3 The main digitization factors considered important by enterprises (2018)***
 
 This graph follows the same line of the previous one, but with a focus on the so-called "digitization factors", namely those factors deemed important to sustain the development of the productive sector. 
 
@@ -218,11 +191,11 @@ This graph follows the same line of the previous one, but with a focus on the so
    <img src="../assets/img/3rd_block/fig_3.png">
 </div><br>
 
-#### 4. Enterprises and innovation
+#### 5. Enterprises and innovation
 
 The Community Innovation Survey (CIS) was designed to complement the traditional indicators, such as R&D expenditure and patent statistics, in the measurement of innovation. In particular, the CIS provides a sound statistical basis for better understanding the innovation process and its effects on the economy and for monitoring and evaluating the innovation policies of the Member States and the European Union.
 
-***4.1 Enterprises with innovation activities (2016)***
+***5.1 Enterprises with innovation activities (2016)***
 
 The two choropleth maps below show the number of enterprises with innovation activities by region and the percentage on the total number of enterprises by region respectively. They are complementary visualizations, since even if the first one shows a sharp distinction between the regions, where north and Lombardia in particular are dominant, the second one reveals that if we consider the percentage on the total number of enterprises, the situation is notable uniform. Nevertheless, the difference in quantitative terms is still meaningful.
 
@@ -230,7 +203,7 @@ The two choropleth maps below show the number of enterprises with innovation act
    <img src="../assets/img/3rd_block/fig_4.svg" width=850px height=550px>
 </div><br>
 
-***4.2 Innovation expenditure by region (2016)***
+***5.2 Innovation expenditure by region (2016)***
 
 The last consideration in the previous section is supported by this other graph, in which it is shown how much each region spends in innovation (data of year 2016). Indeed, it essentially traces the graph showing the number of enterprises with innovation activities, with the exception of the Lazio region.
 
@@ -238,7 +211,7 @@ The last consideration in the previous section is supported by this other graph,
    <img src="../assets/img/3rd_block/fig_5.svg" width=450px height=550px>
 </div><br>
 
-***4.3 Product/process innovation activities and organisation/marketing innovations (2016)***
+***5.3 Product/process innovation activities and organisation/marketing innovations (2016)***
 
 This other graph ends the analysis on the innovation aspect in Italian enterprises. It takes into consideration the number of product and process innovation activities, thus at a finer-grained level with respect to the previous ones. However, the data are aggregated by macro-areas, as shown in the visualization. Again, it clearly demonstrates the presence of a relatively big gap between northern and southern regions.  
 
@@ -246,11 +219,11 @@ This other graph ends the analysis on the innovation aspect in Italian enterpris
    <img src="../assets/img/3rd_block/fig_6.svg" width=550px height=500px>
 </div><br>
 
-#### 5. ICT of the enterprises
+#### 6. ICT of the enterprises
 
 In this section we focused on some specific aspects that are somehow relevant to understand the technological level present in the italian enterprises. 
 
-***5.1 Percentage of enterprises with a website or a homepage (2019)***
+***6.1 Percentage of enterprises with a website or a homepage (2019)***
 
 As one can see, the percentages are all over the 50%, but there is a clear distinction between northern and center/southern regions.
 
@@ -258,7 +231,7 @@ As one can see, the percentages are all over the 50%, but there is a clear disti
    <img src="../assets/img/3rd_block/fig_7.svg" width=550px height=500px>
 </div><br>
 
-***5.2 Enterprises connected via fixed broadband - Download speed (2019)***
+***6.2 Enterprises connected via fixed broadband - Download speed (2019)***
 
 Visibly, the download speeds in the three different classes are not so different among the different regions, with an interesting exception of the Calabria region. It is also worth to mention that from the graph it can be seen that on average about 50% of the enterprises have a fixed broadband connection with a download speed below 30 Mb/s, showing a clear infrastructural problem.
 
@@ -266,11 +239,19 @@ Visibly, the download speeds in the three different classes are not so different
    <img src="../assets/img/3rd_block/fig_8.svg" width=900px height=500px>
 </div><br>
 
+***6.3 Investment in ICT skilled employees by the enterprise and ICT functions performed by internal/external suppliers (2019)***
 
+The two graphs are complementary: in the choropleth map we can see how most of enterprises prefer to assign ICT functions to external suppliers instead of choosing a private management. Moreover, there is the usual quantitative difference going from northern to southern regions. In the barchart below, instead, we can take a look on how the enterprises invest in their employees' ICT skills. Although the number of companies employing ICT specialists is already higher in the northern regions, it remains even higher than in the other territories also for the personnel hired in the last year and the willingness to invest in strengthening the skills of employees.
+
+<img src="../assets/img/2nd_block/fig_6.svg">
+
+<img src="../assets/img/2nd_block/fig_7.png">
 
 ### Europe
 
-#### TODO
+In this section we are going to expand our view and take a look at the digital society situation in the whole Europe. The goal is to provide an analysis that allows a comparison between the different countries, so that one can understand what are the strengths and the weaknesses of each country.
+
+As mentioned at the beginning, to carry on this analysis we used the data from the Digital Agenda for Europe, thus the focus is on the EU Member States.
 
 #### Digital Economy and Society Index (DESI)
 
@@ -292,16 +273,22 @@ The DESI is composed of five principal policy areas:
 5. Digital public services  
    e-Government
 
-The data is proposed here in two interactive visualizations.
+The data is proposed here in two interactive visualizations:
 
 ##### Choropleth map
 The interactive map allows to choose one of the 5 Dimensions which make up the DESI and to select on a slider the year to visualize the score for said indicator.
 
 The scores go from 0 to 100 and are obtained by weighting a specific set of indicators. The can be visualized by hovering over each country.
 
-TODO
-
-[//]: # "<iframe src="https://europe-dash.herokuapp.com/" width=1200 height=1200>"
+[see website](https://digital-divide-italy.herokuapp.com/)
 
 ##### Bar chart
-TODO
+[see website](https://digital-divide-italy.herokuapp.com/)
+
+#### Key Indicators
+
+European Commission services selected various indicators, divided into thematic groups, which illustrate some key dimensions of the European information society. These indicators allow a comparison of progress across European countries as well as over time.
+
+The data is proposed here in another interactive visualization:
+
+[see website](https://digital-divide-italy.herokuapp.com/)
