@@ -24,22 +24,22 @@ Outlined below is a list of the main libraries and tools we used to carry out th
 
 #### 1. Household internet access and sentiment
 This section focuses on the disparities in Italian people's approach towards technology, internet and e-commerce, capturing the findings of the most recent survey (2019), as well as the evolution of some parameters across the years.
-The survey provides information on the citizens' habits and the problems they face in every day life. The thematic areas are on different social aspects, allowing to assess the quality of individual life: here we specifically focus on the citizens' internet usage.
+The survey provides information on the citizens' habits and the problems they face in every day life. The thematic areas are on different social aspects, allowing to assess the quality of individual life: here we specifically focus on the citizens' internet access.
 
 ***1.1 Households with internet access at home by region (2019)***
 
-The graph shows the different distribution in household internet access thoroghout the regions: it highlights how the southern regions of the country are (mostly) below average, while the center-northern regions are above average, albeit the difference is not extremely pronounced. The bar chart and the choropleth map provide a look at this data from different perspectives.
+The graph shows the different distribution in household internet access thoroghout the regions: it highlights how the southern regions of the country are (mostly) below average, while the center-northern regions are generally above average, albeit the difference is not extremely pronounced. The bar chart and the choropleth map provide a look at this data from different perspectives.
 
 <br><div style="text-align:center">
-   <img src="../assets/img/1st_block/fig_1_1.svg" width=59%>
+   <img src="../assets/img/1st_block/fig_1_1.svg" width=55%>
    <img src="../assets/img/1st_block/fig_1_2.svg" width=40%>
 </div><br>
 
 ***1.2 Households with internet access at home by age group (2019)***
 
-Together with the geographic imbalance, the age gap is especially pronounced in Italy: it is a country with an older population than most, and this is reflected in many of the indicators analyzed in this report.
+Together with the geographic imbalance, the age gap is especially pronounced in Italy: it is a country with an older population than most others, and this is reflected in many of the indicators analyzed in this report.
 
-The following chart shows the percentage of households with and without an internet connection, by age group: the most noticeable discrepancy lies in the households with over-65 members, since most (64.7%) of those don't even have an internet connection.
+The following chart shows the percentage of households with and without an internet connection, by age group: the most noticeable discrepancy lies in the households with over-65 members, since most (64.7%) of those don't have an internet connection at home.
 
 <br><div style="text-align:center">
    <img src="../assets/img/1st_block/fig_1_3.svg">
@@ -47,32 +47,42 @@ The following chart shows the percentage of households with and without an inter
 
 ***1.3 Households without internet access at home by age group and reason (2019)***
 
-The next chart analyzes the previous data in more detail, looking at the same age groups and breaking down the reasons for not having internet at home. In general, the predominant reasons are "lack of skills", and finding the internet "not useful, not interesting", which highlights a widespread disinterest and a  noticeable cultural hindrance to the modernization of the country. These findings are especially evident in the over-65 age group.
+The next chart illustrates the previous data in more detail, looking at the same age groups and breaking down the reasons for not having internet at home. In general, the predominant reasons are "lack of skills", and finding the internet "not useful, not interesting", which highlights a widespread disinterest and a  noticeable cultural hindrance to the modernization of the country. These findings are especially evident in the over-65 age group.
 
 <br><div style="text-align:center">
    <img src="../assets/img/1st_block/fig_1_4.svg">
 </div><br>
 
-#### 2. Household internet usage and services
+#### 2. Household internet and services usage
+
+This section focuses on the citizens that actually use the internet as a tool in their everyday life, initially showing the increment over the years in the different age groups. Then, it deals with two of the most common activities carried out on the web: interaction with the public authorities and online purchases.
 
 ***2.1 Internet usage by age over time (2001-2019)***
 
-TODO
+The chart shows internet usage over the years divided by age group. The "6 years and older" represents the increase in internet usage in the general population. It can be observed that the youngest groups (6-44) follow an increase similar to the general trend (while starting from an higher percentage, as expected); on the other hand, people in the 45-64 range show the most marked increase, indicating that older generations are getting more aquainted with the internet. The significant group of elderly people (65 and older) is lowering the average increase, although a steadier increase can be noticed in recent years (from 2017 onwards).
+
+Focusing on the years 2007-2011 an increase in internet adoption speed can be pointed out: this is likely due to the rapid increase in the spread of smarthphones during that period.
 
 <br><div style="text-align:center">
    <img src="../assets/img/1st_block/fig_2_1.svg">
 </div><br>
 
-***2.2 Interaction with the public authorities***
+***2.2 Interaction with the public authorities on the internet (2019)***
 
-TODO
+A necessary step in the simplification of the bureaucracy of a country is the digital transformation of its public services. In Italy, much has been done in the last few years in this regard, but progress has been delayed by the already mentioned cultural resistances to digitalization.
 
-***2.3 Frequency in online purchases by region (2019)***
-
-TODO
+The following chart shows the percentage of individuals aged 14 and over who have interacted with public authorities in the last 12 months (with their specific activity), broken down by macro-areas: it can be observed that the percentages are generally still low all over the country, not ever reaching 30%. Going in more detail, the national differences already found in other indicators are replicated here, with the south showing values around 5% lower than the north and center, on a national scale. In all cases the most frequent interaction is "obtaining information", with "downloading officila forms as a close second: those are more *passive* interaction as opposed to the more *active* "submitting completed forms", which requires an higher level of *computer literacy* to accomplish.
 
 <br><div style="text-align:center">
    <img src="../assets/img/1st_block/fig_2_2.svg">
+</div><br>
+
+***2.3 Frequency in online purchases by region (2019)***
+
+Shopping has become in recent years one of the main online activities: the following choropleth maps highlight the regions in which this activity is more frequent, broken down by time passed since the last online purchase. From this visalization, it appears that the inhabitants of the northern regions are generally confident in online shopping and do it very frequently; as the focus shifts towards the south, online purchases become more sporadic, showing that the majority of the inhabitant are not interested or are wary of shopping on the internet. This is especially apparent in the Campania and Sicilia regions, which have the highest percentage of inhabitants that have never made an online purchase.
+
+<br><div style="text-align:center">
+   <img src="../assets/img/1st_block/fig_2_3.svg">
 </div><br>
 
 #### 3. E-commerce
