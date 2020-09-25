@@ -22,8 +22,12 @@ Outlined below is a list of the main libraries and tools we used to carry out th
 
 ### Italy
 
-#### 1. Household internet access and sentiment
+##### 1. Household internet access and sentiment
+
 This section focuses on the disparities in Italian people's approach towards technology, internet and e-commerce, capturing the findings of the most recent survey (2019), as well as the evolution of some parameters across the years.
+
+The data is obtained from the sample survey "Aspects of daily life", which is part of an integrated system of social surveys - The Multipurpose Surveys on Household - and collects fundamental information on individual and household daily life. From 1993 to 2003 the survey was conducted annually, with data collected during the month of November. In 2004 the survey did not take place and, starting from 2005, it was run every year in February.
+
 The survey provides information on the citizens' habits and the problems they face in every day life. The thematic areas are on different social aspects, allowing to assess the quality of individual life: here we specifically focus on the citizens' internet access.
 
 ***1.1 Households with internet access at home by region (2019)***
@@ -85,14 +89,6 @@ Shopping has become in recent years one of the main online activities: the follo
    <img src="../assets/img/1st_block/fig_2_3.svg">
 </div><br>
 
-#### 3. E-commerce
-
-***3.1 TODO***
-
-TODO
-
-
----
 
 #### E-invoicing
 
@@ -100,7 +96,7 @@ These sections contain an analysis of the technological innovation in the Italia
 
 The survey covers the universe of enterprises with 10 or more persons  employed active, according to the classification of economic activities  adopted in Italy (Ateco 2002), in the areas of manufacturing (D),  construction (F), wholesale and detail (G), hotels (H), transport,  storage and communication (I), real estate activities, renting, research and development (K) and audiovisual (O).
 
-The object of the survey are the equipments of ICT enterprises and the  measurement of e-commerce. The technique chosen is the investigation of a postal self-completion questionnaire.
+The object of the survey are the equipments of ICT enterprises and the measurement of e-commerce. The technique chosen is the investigation of a postal self-completion questionnaire.
 
 The sampling design used for the survey is stratified random type.  Businesses universe were divided into homogeneous layers for level of  economic activity, geographical area and number of employees. 
 
