@@ -22,11 +22,13 @@ Outlined below is a list of the main libraries and tools we used to carry out th
 
 ### Italy
 
-#### 1. Household internet access and sentiment
+These sections contain an analysis of the citizens' access and approach to technology, as well as of the technological innovation in the Italian enterprises across the country. The goal is to show what is the current infrastructural level, and to understand if and where the most recent technologies are impacting the citizens' everyday lives as well as changing the way of working of the Italian production sector.
+
+##### 1. Household internet access and sentiment
 
 This section focuses on the disparities in Italian people's approach towards technology, internet and e-commerce, capturing the findings of the most recent survey (2019), as well as the evolution of some parameters across the years.
 
-The data is obtained from the sample survey "Aspects of daily life", which is part of an integrated system of social surveys - The Multipurpose Surveys on Household - and collects fundamental information on individual and household daily life. From 1993 to 2003 the survey was conducted annually, with data collected during the month of November. In 2004 the survey did not take place and, starting from 2005, it was run every year in February.
+The data is obtained from the sample survey "Aspects of daily life", which is part of an integrated system of social surveys - The Multipurpose Surveys on Household - and collects fundamental information on individual and household daily life.
 
 The survey provides information on the citizens' habits and the problems they face in every day life. The thematic areas are on different social aspects, allowing to assess the quality of individual life: here we specifically focus on the citizens' internet access.
 
@@ -63,9 +65,9 @@ This section focuses on the citizens that actually use the internet as a tool in
 
 ***2.1 Internet usage by age over time (2001-2019)***
 
-The chart shows internet usage over the years divided by age group. The "6 years and older" represents the increase in internet usage in the general population. It can be observed that the youngest groups (6-44) follow an increase similar to the general trend (while starting from an higher percentage, as expected); on the other hand, people in the 45-64 range show the most marked increase, indicating that older generations are getting more aquainted with the internet. The significant group of elderly people (65 and older) is lowering the average increase, although a steadier increase can be noticed in recent years (from 2017 onwards).
+The chart shows internet usage over the years divided by age group. The "6 years and older" represents the increase in internet usage in the general population. It can be observed that the youngest groups (6-44) follow an increase similar to the general trend (while starting from an higher percentage, as expected); on the other hand, people in the 45-64 range show the most marked increase, indicating that older generations are getting more aquainted with the internet. The significant group of elderly people (65 and older) is lowering the average increase, although a steadier growth can be noticed in recent years (from 2017 onwards).
 
-Focusing on the years 2007-2011 an increase in internet adoption speed can be pointed out: this is likely due to the rapid increase in the spread of smarthphones during that period.
+Focusing on the years 2007-2011 an increase in internet adoption speed can be pointed out: this is likely due to the rapid expansion in the spread of smarthphones during that period.
 
 <br><div style="text-align:center">
    <img src="../assets/img/1st_block/fig_2_1.svg">
@@ -75,7 +77,7 @@ Focusing on the years 2007-2011 an increase in internet adoption speed can be po
 
 A necessary step in the simplification of the bureaucracy of a country is the digital transformation of its public services. In Italy, much has been done in the last few years in this regard, but progress has been delayed by the already mentioned cultural resistances to digitalization.
 
-The following chart shows the percentage of individuals aged 14 and over who have interacted with public authorities in the last 12 months (with their specific activity), broken down by macro-areas: it can be observed that the percentages are generally still low all over the country, not ever reaching 30%. Going in more detail, the national differences already found in other indicators are replicated here, with the south showing values around 5% lower than the north and center, on a national scale. In all cases the most frequent interaction is "obtaining information", with "downloading officila forms as a close second: those are more *passive* interaction as opposed to the more *active* "submitting completed forms", which requires an higher level of *computer literacy* to accomplish.
+The following chart shows the percentage of individuals aged 14 and over who have interacted with public authorities in the last 12 months (with their specific activity), broken down by macro-areas: it can be observed that the percentages are generally still low all over the country, not ever reaching 30%. Going in more detail, the national differences already found in other indicators are replicated here, with the south showing values around 5% lower than the north and center, on a national scale. In all cases the most frequent interaction is "obtaining information", with "downloading official forms as a close second: those are more *passive* interaction as opposed to the more *active* "submitting completed forms", which requires an higher level of *computer literacy* to accomplish.
 
 <br><div style="text-align:center">
    <img src="../assets/img/1st_block/fig_2_2.svg">
@@ -83,7 +85,7 @@ The following chart shows the percentage of individuals aged 14 and over who hav
 
 ***2.3 Frequency in online purchases by region (2019)***
 
-Shopping has become in recent years one of the main online activities: the following choropleth maps highlight the regions in which this activity is more frequent, broken down by time passed since the last online purchase. From this visalization, it appears that the inhabitants of the northern regions are generally confident in online shopping and do it very frequently; as the focus shifts towards the south, online purchases become more sporadic, showing that the majority of the inhabitant are not interested or are wary of shopping on the internet. This is especially apparent in the Campania and Sicilia regions, which have the highest percentage of inhabitants that have never made an online purchase.
+Shopping has become, in recent years, one of the main online activities: the following choropleth maps highlight the regions in which this activity is more frequent, broken down by time passed since the last online purchase. From this visalization, it appears that the inhabitants of the northern regions are generally confident in online shopping and do it very frequently; as the focus shifts towards the south, online purchases become more sporadic, showing that the majority of the inhabitant are not interested or are wary of shopping on the internet. This is especially apparent in the Campania and Sicilia regions, which have the highest percentage of inhabitants that have never made an online purchase.
 
 <br><div style="text-align:center">
    <img src="../assets/img/1st_block/fig_2_3.svg">
