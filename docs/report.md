@@ -207,7 +207,7 @@ The two choropleth maps below show the number of enterprises with innovation act
 
 ***5.2 Innovation expenditure by region (2016)***
 
-The last consideration in the previous section is supported by this other graph, in which it is shown how much each region spends in innovation (data of year 2016). Indeed, it essentially traces the graph showing the number of enterprises with innovation activities, with the exception of the Lazio region.
+The last consideration in the previous section is supported by the first graph on the left above, in which it is shown how much each region spends in innovation (data of year 2016). Indeed, it essentially traces the graph showing the number of enterprises with innovation activities, with the exception of the Lazio region. Two other complementary graphs are shown on the right, in order to have a more detailed and precise vision of the situation: we can indeed see the Gross Domestic Product (GDP) of each region (data at 2016) and then a graph derived from the other two, showing what is the percentage (%) represented by the innovation expenditure, considering the GDP as method of comparison.
 
 <br><div style="text-align:center">
    <img src="../assets/img/3rd_block/fig_5.svg" width=450px height=550px>
