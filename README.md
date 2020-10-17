@@ -6,10 +6,11 @@ The goal of this project is to analyze in detail what is the actual scenario in 
 
 ## Libraries
 - pandas
- - geopandas
- - matplotlib
- - seaborn
- - plotly
+- geopandas
+- matplotlib
+- seaborn
+- plotly
+- dash
 
 ## Data
 
@@ -30,40 +31,9 @@ The goal of this project is to analyze in detail what is the actual scenario in 
     - ICT of the enterprise
     - enterprises with innovation activities (regional data)
 
-**Source: Eurostat (https://ec.europa.eu/eurostat/data/database)**
-- level of internet access
-- type of connection to the internet
-- devices to access the internet
-- reasons for not having internet access at home
-- availability of computers
-- devices used to access the internet
-- mobile internet access
-- computer use
-- frequency of computer use
-- internet use
-- frequency of internet use
-- places of internet use
-- internet activities
-- use of cloud services
-- internet activities using smart TV
-- use of collaborative economy
-- financial activities over the internet
-- e-government activities of individuals via websites
-- security related problems experienced when using the internet
-- activities via internet not done because of security concerns
-- use of ICT at work and activities performed
-- impact of ICT on tasks and skills
-- work from home, from an external site or on the move
-- individuals' level of digital skills
-- individuals' level of computer skills
-- individuals' level of internet skills
-- way of obtaining ICT skills
-- enterprises that employ ICT specialists
-- employed ICT specialist
-- enterprises that provided training to develop/upgrade ICT skills of their personnel
-- percentage of the ICT sector in GDP
-- percentage of the ICT personnel in total employment
-- business expenditure on R&D (BERD) in ICT sector as % of total R&D expenditure
+**Source: EU Digital Agenda (https://digital-agenda-data.eu/)**
+- Digital Economy and Society Index (DESI): The Digital Economy and Society Index (DESI) is a composite index that summarises relevant indicators on Europe’s digital performance and tracks the evolution of EU Member States, across five main dimensions: Connectivity, Human Capital, Use of Internet, Integration of Digital Technology, Digital Public Services.
+- Key Indicators: European Commission services selected various indicators, divided into thematic groups, which illustrate some key dimensions of the European information society. These indicators allow a comparison of progress across European countries as well as over time.
 
 ## Structure and tasks assignment
 The following is a draft of what will be the structure of the notebook.
