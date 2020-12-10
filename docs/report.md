@@ -1,5 +1,9 @@
 # An analysis of the digital divide in Italy and Europe
 
+## Disclaimer
+
+*This is a draft, the real version (with the right visualizations) can be directly found on the final website: [https://digital-divide-italy.herokuapp.com/](https://digital-divide-italy.herokuapp.com/).*
+
 ## Overview
 
 In a world that is every day more connected, it is crucial to support this change with suitable infrastructure. Moreover, the last months have forced all the countries to face a tough challenge in terms of technological development (and not only that), due to COVID19. Sustaining the digital economy is critical to deal with such extreme scenarios, but also to guarantee a better state of life and to give more opportunities to the people, and thus introducing new lymph in the economy of the country. The digital divide is a phenomenon that affects many nations, with different levels of intensity.

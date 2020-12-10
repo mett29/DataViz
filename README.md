@@ -1,6 +1,9 @@
 # Digital divide in Italy and Europe
 *Project of the "Data and Results Visualization" course.*
 
+- Main analysis: [https://digital-divide-italy.herokuapp.com/](https://digital-divide-italy.herokuapp.com/);
+- Supplementary analysis: it can be found in the *docs* folder.
+
 ## Mission
 The goal of this project is to analyze in detail what is the actual scenario in Italy in terms of **digital society and economy**, namely all those aspects related to what, where and how technologies are used. This includes: level of internet access, type of connections, type of devices used, availability of computers, ICT usage at work etc. The analysis will be carried on with the idea of obtaining a detailed comparison at national level, and then expanding the area to the whole Europe.
 
